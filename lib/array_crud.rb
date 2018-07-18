@@ -11,7 +11,7 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  [2, 4, 6, 8].unshift(1)
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
